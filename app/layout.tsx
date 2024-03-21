@@ -7,7 +7,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <footer className="flex items-center justify-center py-10">
+          Hecho con ❤️ por ContentCraft
+        </footer>
+      </body>
     </html>
   );
 }
